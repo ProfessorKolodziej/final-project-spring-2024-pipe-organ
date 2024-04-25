@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Update your description here" />
+	<title> Listen to the Organ! </title>
+
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+	<h1>Let's listen to some organ pipes! </h1>
+	<h2> Click on an organ stop to hear how it sounds. </h2>
+	<p> An organ stop is a family of pipes that share a name and a similar shape. </p>
+
+	<div class="stops-panel">
+		<button class="P16" onclick="playAudio()"> Principal 16' </button>
+		<button class="VC" onclick="playAudio()"> Vox Celeste 8' </button>
+		<button class="P8" onclick="playAudio()"> Principal 8'</button>
+		<button class="N2" onclick="playAudio()"> Nazard 2 2/3'</button>
+		<button class="T8" onclick="playAudio()"> Trumpet 8' </button>
+	</div>
+
+	<audio id="Principal-16">
+		<source src="audio/Ped_OpenDiap16_arp.mp3">
+	</audio>
+
+	<audio id="Vox">
+		<source src="audio/Rec_Celeste_arp.mp3">
+	</audio>
+
+	<audio id="Principal-8">
+		<source src="Audio/Gt_OpenDiapSmall8_arp.mp3">
+	</audio>
+
+	<audio id="Nazard">
+		<source src="Audio/Hin_Nassat_arp.mp3">
+	</audio>
+
+	<audio id="Trumpet">
+		<source src="Audio/Rec_Trompette_arp.mp3">
+	</audio>
+
+	<div>
+		<h2> Organ Stop Descriptions</h2>
+		<p> The Principal 16' is a deep supportive sound that is often played on the pedalboard with the organist's feed.
+			It is called 16 because its pipes are twice as long as the Principal 8'. </p>
+		<p> Vox Celeste means voice of the sky. A celeste stop plays multiple pipes together to make its special sound.
+		</p>
+		<p> Principal 8' is the classic pipe organ sound. A middle C pipe is really 8 feet tall! </p>
+		<p> Nazard is a mixture stop where multiple pipes sound together to create an illusion of sound. </p>
+		<p> The Trumpet 8' is usually a loud solo stop that sounds exactly like the brass instrument it is named after.
+		</p>
+
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>

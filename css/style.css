@@ -1,0 +1,123 @@
+/*
+CSS controls the styling of the page.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+body {
+	font-family: Raleway, sans-serif;
+	font-size: 24;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+.intro-buttons {
+	/* min-width: 40%;
+	max-width: 60%; */
+	border: 2px solid 000;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#learn-page {
+	border-style: solid;
+	border: 2px solid 000;
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: palevioletred;
+}
+
+#listen-page {
+	border-style: solid;
+	border: 2px solid 000;
+	border-radius: 20px;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: palegreen;
+}
+
+.organ-image {
+	width: 750px;
+
+}
+
+:root {
+	--color-primary: blue;
+	--color-secondary: #c00;
+}
+
+.stops-panel {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 3em;
+
+}
+
+.stops-panel button {
+	border: 2px solid 000;
+	border-radius: 20px;
+	padding: 2px;
+	width: 20%;
+	height: 16em;
+	font-family: Raleway, sans-serif;
+	/* text-align: ; */
+}
+
+.P16 {
+	background-color: #4EBCFA;
+}
+
+.VC {
+	background-color: #F0BCEB;
+}
+
+.P8 {
+	background-color: #BC5BEA;
+}
+
+.N2 {
+	background-color: #6FF093;
+}
+
+.T8 {
+	background-color: #FF0000;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*
+CSS doesn't allow variables to be used in media
+queries just yet, but you can use these values
+to help you out.
+
+	--size-xs: 320px;
+	--size-sm: 480px;
+	--size-md: 768px;
+	--size-lg: 1024px;
+	--size-xl: 1200px;
+*/
+
+/* This uses the same value as --size-xs. */
+@media screen and (width >=320px) {
+	.content-container {
+		margin: 0 auto;
+		max-width: 768px;
+	}
+}
