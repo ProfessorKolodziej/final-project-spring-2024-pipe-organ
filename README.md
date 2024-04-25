@@ -1,8 +1,8 @@
-# Final Project (Replace with your project name)
+# Final Project Pipe Organ (Lydia)
 
 ## Description
 
-Please add a brief description of your final project here.
+Pipe organ diagram and sound demo. 
 
 ## Project Documentation
 
