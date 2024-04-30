@@ -6,44 +6,18 @@
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
 
-//Visual Portion Learn
-const topSection = document.querySelector('#top');
-const middleSection = document.querySelector('#middle');
-const bottomSection = document.querySelector('#bottom');
 
-function showInformation() {
-	const shownItems = document.querySelectorAll('.show');
-}
-for (item of shownItems) {
-	item.classList.remove('show');
+// Listen
+
+let button = document.getElementsById("P16");
+button.addEventListener("click", myFunction()); {
+	const audio = document("P16", onclick);
+	console.log("myFunction")
+
 }
 
-topSection.addEventListener("onmouseover", showInformation);
-middleSection.addEventListener("onmouseover", showInformation);
-bottomSection.addEventListener("onmouseover", showInformation);
-
-//Audio portion Listen
-function playAudio() {
-	let audio = document.getElementById("Principal-16");
-	playAudio();
-}
-
-function playAudio() {
-	let audio = document.getElementById("Vox");
-	playAudio();
-}
-
-function playAudio() {
-	let audio = document.getElementById("Principal-8");
-	playAudio();
-}
-
-function playAudio() {
-	let audio = document.getElementById("Nazard");
-	playAudio();
-}
-
-function playAudio() {
-	let audio = document.getElementById("Trumpet");
-	playAudio();
+let document = document.getElementsByClassName("VC");
+button.addEventListener("click", myFunction()); {
+	const audio = document("VC", onclick);
+	console.log("VC")
 }
