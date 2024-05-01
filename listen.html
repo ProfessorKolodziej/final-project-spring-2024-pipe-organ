@@ -19,31 +19,24 @@
 	<p> An organ stop is a family of pipes that share a name and a similar shape. </p>
 
 	<div class="stops-panel">
-		<button class="P16" onclick="myFunction()"> Principal 16' </button>
-		<button class="VC" onclick="playAudio2()"> Vox Celeste 8' </button>
-		<button class="P8" onclick="playAudio3()"> Principal 8'</button>
-		<button class="N2" onclick="playAudio4()"> Nazard 2 2/3'</button>
-		<button class="T8" onclick="playAudio5()"> Trumpet 8' </button>
+		<input type="button" value="Principal 16" onclick="play()">
+		<input type="button" value="Vox Celeste 8" onclick="play2()">
+		<input type="button" value="Principal 8" onclick="play3()">
+		<input type="button" value="Nazard 2 2/3" onclick="play4()">
+		<input type="button" value="Trumpet 8" onclick="play5()">
 	</div>
 
-	<audio controls class="P16">
-		<source src="audio/Ped_OpenDiap16_arp.mp3">
+	<audio id="P16" src="audio/Ped_OpenDiap16_arp.mp3"> </audio>
+
+	<audio id="VC" src="audio/Rec_Celeste_arp.mp3"> </audio>
+
+	<audio id="P8" src="Audio/Gt_OpenDiapSmall8_arp.mp3">
 	</audio>
 
-	<audio class="VC">
-		<source src="audio/Rec_Celeste_arp.mp3">
+	<audio id="N2" src="Audio/Hin_Nassat_arp.mp3">
 	</audio>
 
-	<audio class="P8">
-		<source src="Audio/Gt_OpenDiapSmall8_arp.mp3">
-	</audio>
-
-	<audio class="N2">
-		<source src="Audio/Hin_Nassat_arp.mp3">
-	</audio>
-
-	<audio class="T8">
-		<source src="Audio/Rec_Trompette_arp.mp3">
+	<audio id="T8" src="Audio/Rec_Trompette_arp.mp3">
 	</audio>
 
 	<div class="padding"></div>

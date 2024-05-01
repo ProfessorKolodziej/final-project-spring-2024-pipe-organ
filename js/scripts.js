@@ -6,18 +6,75 @@
 // - Run npm run test regularly to check autograding
 // - You'll need to link this file to your HTML :)
 
+//JS based on https://stackoverflow.com/questions/76196258/add-different-sounds-to-different-buttons
+//and https://www.learningguild.com/articles/coding-sound-with-javascript-beginner-s-guide/
 
-// Listen
 
-let button = document.getElementsById("P16");
-button.addEventListener("click", myFunction()); {
-	const audio = document("P16", onclick);
-	console.log("myFunction")
+//let button = document.getElementsById("P16");
+//button.addEventListener("click", myFunction()); {
+//const audio = document("P16", onclick);
+//console.log("myFunction")
+//}
 
+//let document = document.getElementsByClassName("VC");
+//button.addEventListener("click", myFunction()); {
+//const audio = document("VC", onclick);
+//console.log("VC")
+//}
+
+//let audio = new Audio('Audio/Ped_OpenDiap16_arp.mp3');
+//audio.load();
+//audio.play();
+
+//let play = function () { document.getElementsByClassName("P16").play() }
+
+//const myP16 = document.getElementById("P16");
+//const firstButton = document.getElementById("Pedal16");
+
+//{
+//firstButton.addEventListener("click", function ());
+//}
+
+//function myP16(onclick)
+//audio.play();
+
+
+//const audio = new
+//Audio("Audio/Ped_OpenDiap16_arp.mp3");
+//const buttons = document.querySelectorAll("button");
+
+//buttons.forEach("P16" => {
+//button.addEventListener("click", () => {
+//audio.play();
+//});
+//});
+
+//const audio = newAudio("Audio/Rec_Celeste_arp.mp3")
+//buttons.forEach(button, VC{
+//button.addEventListener("click", ())
+//audio.play();
+//}
+
+//function play() {
+	//const audio = document.getElementById("P16");
+	//audio.play();
 }
 
-let document = document.getElementsByClassName("VC");
-button.addEventListener("click", myFunction()); {
-	const audio = document("VC", onclick);
-	console.log("VC")
-}
+//function play() {
+//const audio = document.getElementById("VC");
+//audio2.play();
+
+//}
+
+const playSound = (Audio / Ped_OpenDiap16_arp.mp3) => {
+	const audio = new Audio();
+	audio.src = Audio / Ped_OpenDiap16_arp.mp3;
+	audio.play();
+};
+
+document.querySelectorAll("input").forEach((Input))=>
+button.addEventListener("click", () => {
+	playSound(Input);
+});
+
+
